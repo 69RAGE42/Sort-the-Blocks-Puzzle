@@ -1,1 +1,116 @@
+.body {
+    width: 100vw;
+    height: 75vh;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.element {
+    width: 25vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all ease-in-out 300ms;
+}
+
+.float {
+    height: 2.5vh;
+    width: 25vw;
+    position: relative;
+}
+
+.holder {
+    width: 25vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition: all ease-in-out 300ms;
+}
+
+.display1, .display2, .display3 {
+    height: 5vh;
+    width: 16vw;
+    background-color: #ffffffc4;
+    backdrop-filter: blur(10px);
+    box-shadow: inset 0px 0px 7.5px 3px #00000080;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 32px;
+    word-spacing: 1vw;
+    transition: all ease-in-out 300ms;
+    user-select: none;
+}
+
+.place {
+    height: 60px;
+    width: 120px;
+    font-size: 32px;
+    background-color: #ffffffc4;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #00000050;
+    display: none;
+    transition: all ease-in 300ms;
+    cursor: pointer;
+}
+
+.holder .stick {
+    width: 25px;
+    height: 15vh;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #d1a585;
+    transition: all ease-in-out 300ms;
+}
+
+
+.holder .plate {
+    width: 22vw;
+    height: 25px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #773f1a;
+    transition: all ease-in-out 300ms;
+}
+
+.block1, .block2, .block3, .block4, .block5, .block6 {
+    height: 2.5vh;
+    border-radius: 10px 10px 0px 0px;
+    background: linear-gradient(0deg, #985527, #a6704e);
+}
+
+.block1 {
+    width: 16vw;
+}
+
+.block2 {
+    width: 14vw;
+}
+
+.block3 {
+    width: 12vw;
+}
+
+.block4 {
+    width: 10vw;
+}
+
+.block5 {
+    width: 8vw;
+}
+
+.block6 {
+    width: 6vw;
+}
+
+.block0 {
+    width: 25px;
+    height: 2.5vh;
+    background-color: #d1a585;
+}
