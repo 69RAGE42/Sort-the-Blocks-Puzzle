@@ -120,7 +120,7 @@ function grabUp(stickNumber, blockPosition, blockNumber) {
 
     
     document.querySelector(".float"+(stickNumber+1)).className = "float"+(stickNumber+1)+" block"+blockNumber;
-    document.querySelector(".place"+(stickNumber+1)).style.boxShadow = "inset 0px 0px 10px 5px #00000050";
+    document.querySelector(".place"+(stickNumber+1)).style.boxShadow = "inset 0px 15px 20px -5px #00000050, inset -10px 0px 20px 0px #00000050, inset 10px 0px 20px 0px #00000050";
     document.querySelector(".place1 a").className = "fa-solid fa-angles-down";
     document.querySelector(".place2 a").className = "fa-solid fa-angles-down";
     document.querySelector(".place3 a").className = "fa-solid fa-angles-down";
@@ -137,9 +137,9 @@ function grabDown(stickNumber, blockPosition, blockNumber) {
     document.querySelector(".float1").className = "float float1";
     document.querySelector(".float2").className = "float float2";
     document.querySelector(".float3").className = "float float3";
-    document.querySelector(".place1").style.boxShadow = "0px 0px 10px 2px #00000050";
-    document.querySelector(".place2").style.boxShadow = "0px 0px 10px 2px #00000050";
-    document.querySelector(".place3").style.boxShadow = "0px 0px 10px 2px #00000050";
+    document.querySelector(".place1").style.boxShadow = "0px 15px 20px -5px #00000050, inset -10px 0px 20px 0px #00000050, inset 10px 0px 20px 0px #00000050";
+    document.querySelector(".place2").style.boxShadow = "0px 15px 20px -5px #00000050, inset -10px 0px 20px 0px #00000050, inset 10px 0px 20px 0px #00000050";
+    document.querySelector(".place3").style.boxShadow = "0px 15px 20px -5px #00000050, inset -10px 0px 20px 0px #00000050, inset 10px 0px 20px 0px #00000050";
     document.querySelector(".place1 a").className = "fa-solid fa-angles-up";
     document.querySelector(".place2 a").className = "fa-solid fa-angles-up";
     document.querySelector(".place3 a").className = "fa-solid fa-angles-up";

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
@@ -11,7 +10,10 @@
 }
 
 body {
-    background-color: #9ECED1;
+    background-color: beige;
+    background-image: url("images/background2.jpg");
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +25,7 @@ body {
     height: 85px;
     position: absolute;
     top: 0px;
-    background-color: beige;
+    background-color: #EAEACF;
     border-bottom-left-radius: 60px;
     border-bottom-right-radius: 60px;
     box-shadow: 0px 15px 20px -5px #00000050,
@@ -66,9 +68,10 @@ body {
     top: 0px;
     right: 0px;
     background: transparent;
+    backdrop-filter: blur(40px);
     border: none;
     border-radius: 0px 0px 0px 60px;
-    box-shadow: 0px 0px 10px 2px #00000050;
+    box-shadow: 0px 0px 20px 10px #000000AA;
     user-select: none;
     cursor: pointer;
 }
@@ -78,7 +81,7 @@ body {
     height: 125px;
     font-size: 40px;
     position: absolute;
-    top: 150px;
+    top: 157px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +89,7 @@ body {
     background: transparent;
     border: none;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 2px #00000050;
+    box-shadow: 0px 0px 10px 2px #00000080;
     transition: all ease-in-out 300ms;
     user-select: none;
     cursor: pointer;

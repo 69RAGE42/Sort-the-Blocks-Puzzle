@@ -1,3 +1,8 @@
+:root {
+    --lightColor: #d59b72;
+    --darkColor: #663819;
+}
+
 .body {
     width: 100vw;
     height: 75vh;
@@ -10,12 +15,15 @@
 }
 
 .element {
-    width: 25vw;
+    width: 27.5vw;
     height: 75vh;
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: 0px 0px 20px 10px #000000AA;
+    backdrop-filter: blur(40px);
     transition: all ease-in-out 300ms;
 }
 
@@ -38,9 +46,11 @@
 .display1, .display2, .display3 {
     height: 5vh;
     width: 16vw;
-    background-color: #ffffffc4;
+    background-color: #EAEACF;
     backdrop-filter: blur(10px);
-    box-shadow: inset 0px 0px 7.5px 3px #00000080;
+    box-shadow: 0px 15px 20px -5px #00000050,
+                inset -10px 0px 20px 0px #00000050,
+                inset 10px 0px 20px 0px #00000050;
     border-radius: 10px;
     text-align: center;
     font-size: 32px;
@@ -53,10 +63,12 @@
     height: 60px;
     width: 120px;
     font-size: 32px;
-    background-color: #ffffffc4;
+    background-color: #EAEACF;
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 2px #00000050;
+    box-shadow: 0px 15px 20px -5px #00000050,
+                inset -10px 0px 20px 0px #00000050,
+                inset 10px 0px 20px 0px #00000050;
     display: none;
     transition: all ease-in 300ms;
     cursor: pointer;
@@ -66,7 +78,7 @@
     width: 25px;
     height: 15vh;
     border-radius: 10px 10px 0px 0px;
-    background-color: #d1a585;
+    background-color: var(--lightColor);
     transition: all ease-in-out 300ms;
 }
 
@@ -75,7 +87,7 @@
     width: 22vw;
     height: 25px;
     border-radius: 10px 10px 0px 0px;
-    background-color: #773f1a;
+    background-color: var(--darkColor);
     transition: all ease-in-out 300ms;
 }
 
@@ -112,5 +124,5 @@
 .block0 {
     width: 25px;
     height: 2.5vh;
-    background-color: #d1a585;
+    background-color: var(--lightColor); /* d1a585 */
 }
